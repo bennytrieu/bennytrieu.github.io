@@ -1,118 +1,201 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Benny Trieu",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://bennytrieu.github.io/images/benny.png",
+    "email": "trieu6@hawaii.edu",
+    "phone": "808-255-5818",
+    "website": "https://bennytrieu.github.io/",
+    "summary": "Hello, my name is Benny. I am an undergraduate studying for a Computer Science degree at University of Hawaii at Manoa. I plan to graduate on spring 2023.",
+    "location": {
+      "postalCode": "96826",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      {
+        "network": "github",
+        "username": "bennytrieu",
+        "url": "https://github.com/bennytrieu"
+      },
+      {
+        "network": "linkedin",
+        "username": "Benny Trieu",
+        "url": "https://www.linkedin.com/in/benny-trieu-8369541aa/"
+      }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    {
+      "name": "Video Games",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Game Design",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "keywords": [
+      ]
+    }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Semantic UI", 
+        "React", 
+        "MeteorJS", 
+        "Underscore"
+      ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "level": "",
+      "keywords": [
+        "Windows OS",
+        "Mac OS",
+        "Git/GitHub",
+        "Unity",
+        "Eclipse",
+        "Filezilla"
+      ]
+    },
+    {
+      "name": "Good Typing Speed",
+      "level": "",
+      "keywords": [
+        "Average of 90 WPM"
+      ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2023)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2019-08-26",
       "endDate": "Present",
+      "gpa": "3.41",
       "courses": [
+        "ICS Intro I & II (ICS 111 & ICS 211)",
+        "ICS Discreet Math I & II (ICS 141 & ICS 241)",
+        "ICS Scripting in C/C++ (ICS 212)",
+        "ICS Algorithms (ICS 311)",
+        "ICS Software Engineering (ICS 314)"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "University of Hawaii at Manoa - Hamilton Library",
+      "position": "Info Tech - DNS Computer & Network Support Specialist",
+      "website": "https://manoa.hawaii.edu/library/",
+      "startDate": "2021-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Part-time IT technician for Hamilton Library",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Installation of hardware and software for university students and library staff to utilize",
+        "Assistance with library staff's technological issues",
+        "Recorded shortages, discrepancies, and information of the library's inventory"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Mcdonald's",
+      "position": "Resturant Crew Member",
+      "website": "https://www.mcdonalds.com/us/en-us.html",
+      "startDate": "2019-08-08",
+      "endDate": "2019-10-04",
+      "summary": "Part-time Crew member for the Mcdonald's company",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Delivered prompt, friendly customer service by documenting orders",
+        "Assisted other staff by ensuring all stations are well-supplied",
+        "Followed food safety and sanitation procedures in line with the company’s standards"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Nā Kūpuna Makamae Community Center",
+      "website": "",
+      "position": "Farmer's market volunteer",
+      "startDate": "2019-07-01",
+      "endDate": "2019-08-01",
+      "summary": "Support and give help to the farmer's market",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Assembled the farmer's market",
+        "Helped with the transactions of the vegetables being sold at the farmer's market",
+        "Recorded the inventory of vegetables to measure profits"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "USTA",
+      "website": "https://www.usta.com/en/home.html",
+      "position": "Volunteer",
+      "startDate": "2017-07-01",
+      "endDate": "2019-07-01",
+      "summary": "Help promote physical activity to kids",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Constructed the booth with other volunteers",
+        "Encourage kids to sign up for tennis lessons",
+        "Distributed the prizes to participating kids"
+      ]
+    },
+    {
+      "organization": "Children's Discovery Center",
+      "website": "http://discoverycenterhawaii.org/",
+      "position": "Caretaker",
+      "startDate": "2018-06-01",
+      "endDate": "2018-09-01",
+      "summary": "Nurture and help educate the children in the environment",
+      "highlights": [
+        "Maintained and reorganized the environment to uphold the company’s friendly culture and reputation",
+        "Supervised and interacted with children to ensure their safety in order to maintain a safe, positive environment",
+        "Developed friendly relationships with children’s parents by providing directions and customer support when needed"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Charles R Hemenway Scholarship",
+      "date": "2020-10-05",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "This was awarded to me for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
+      "title": "Hawaii Veterans Memorial Scholarship",
+      "date": "2020-10-05",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "This was awarded to me similarly to the Charles R Hemenway Scholarship for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
+    },
+    {
+      "title": "Most Inspirational Athlete",
+      "date": "2019-05-19",
+      "awarder": "Mckinley High School Athletic Banquet",
+      "summary": "This was awarded as a sign of showing the most improvement and hard effort in the team. This medal was awarded to me since I have improved a lot in my senior year of Tennis and have put in a lot of time and effort in my tennis season."
+    },
+    {
+      "title": "Teisei Tengan Memorial Scholarship",
+      "date": "2019-05-16",
+      "awarder": "Teisei Tengan Memorial Donor",
+      "summary": "Awarded for recognition of my accomplishments of my four years of high school"
+    } 
   ],
   "references": [
     {
-      "name": "Available upon request"
+      "name": "Available upon request",
+      "reference": ""
     }
   ]
 }
