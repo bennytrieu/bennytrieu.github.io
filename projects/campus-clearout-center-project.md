@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cartoon-trading.jpg
+image: img/cartoon-trading.jpg
 title: Campus Clearout Center
 permalink: 
 # All dates must be YYYY-MM-DD format!
