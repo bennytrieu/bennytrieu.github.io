@@ -16,12 +16,12 @@
     "profiles": [
       {
         "network": "github",
-        "username": "bennytrieu",
+        "username": "Benny's Github",
         "url": "https://github.com/bennytrieu"
       },
       {
         "network": "linkedin",
-        "username": "Benny Trieu",
+        "username": "Benny's Linkedin",
         "url": "https://www.linkedin.com/in/benny-trieu-8369541aa/"
       }
     ]
@@ -50,6 +50,8 @@
       "keywords": [
         "C",
         "C++",
+        "Python",
+        "DASH",
         "Java",
         "Javascript",
         "HTML",
@@ -57,7 +59,8 @@
         "Semantic UI", 
         "React", 
         "MeteorJS", 
-        "Underscore"
+        "Underscore",
+        "Blueprints"
       ]
     },
     {
@@ -69,7 +72,9 @@
         "Git/GitHub",
         "Unity",
         "Eclipse",
-        "Filezilla"
+        "Filezilla",
+        "Unreal",
+        "Amazon Web Services"
       ]
     },
     {
@@ -87,13 +92,19 @@
       "studyType": "B.S.",
       "startDate": "2019-08-26",
       "endDate": "Present",
-      "gpa": "3.41",
+      "gpa": "3.39",
       "courses": [
-        "ICS Intro I & II (ICS 111 & ICS 211)",
-        "ICS Discreet Math I & II (ICS 141 & ICS 241)",
-        "ICS Scripting in C/C++ (ICS 212)",
-        "ICS Algorithms (ICS 311)",
-        "ICS Software Engineering (ICS 314)"
+        "Intro to Computer Science I & II (ICS 111 & ICS 211)",
+        "Discrete Mathematics I & II (ICS 141 & ICS 241)",
+        "Program Structure in C (ICS 212)",
+        "Algorithms (ICS 311)",
+        "Software Engineering I (ICS 314)",
+        "Machine-Lvl & Systems Programming (ICS 312)",
+        "Database Systems I (ICS 321)",
+        "Operating Systems (ICS 332)",
+        "Data Networks (ICS 451)",
+        "Virtual & Augumented Reality Programming (ICS 486)",
+        "Artifical Intelligence (ICS 461)"
       ]
     }
   ],
