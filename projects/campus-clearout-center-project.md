@@ -14,7 +14,7 @@ labels:
 summary: A website that I made with 3 others for my software development class
 ---
 
-<img class="database image" style="width:700px;height:328px;" src="../images/project-home-page.png">
+<img class="database image" style="width:700px;height:328px;" src="../img/project-home-page.png">
 
 ## Overview
 For our final project for my software development class, my 3 groupmates and I worked on a website called Campus Clearout Center. Campus Clearout Center is a website that allows UH community members to offer their items they don't want while searching for items that other people are giving away. Having a trading website for UH community members allows reusable materials like textbooks, campus specific necessities, and more to be distributed by other members of the UH community so that the material is not thrown away. This website also allows users to choose certain locations on UH campus so that trades may be done in a safe and secure environment. 
