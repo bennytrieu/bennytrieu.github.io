@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/kbr-logo.png
+image: img/kbrlogo.png
 title: Developing Web-server Features for the Deep Learning Team 
 permalink: 
 # All dates must be YYYY-MM-DD format!
@@ -23,4 +23,4 @@ I have learned a lot from this project whether it would be learning how to use t
 
 ## Progress and Presentation
 
-Here is my [Presentation](https://docs.google.com/presentation/d/1yPRs8vxF040HdUPke632nkWaMuBigXCOH5ZVoUWNmzE/edit?usp=sharing) that I displayed for my internship showing the final product of my project
+Here is my [Presentation](https://docs.google.com/presentation/d/1yPRs8vxF040HdUPke632nkWaMuBigXCOH5ZVoUWNmzE/edit?usp=sharing)
