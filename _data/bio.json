@@ -74,7 +74,8 @@
         "Eclipse",
         "Filezilla",
         "Unreal",
-        "Amazon Web Services"
+        "Amazon Web Services",
+        "Pycharm"
       ]
     },
     {
@@ -180,15 +181,21 @@
   "awards": [
     {
       "title": "Charles R Hemenway Scholarship",
-      "date": "2020-10-05",
+      "date": "2020-10-05 & 2022-10-05",
       "awarder": "University of Hawaii at Manoa",
       "summary": "This was awarded to me for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
     },
     {
       "title": "Hawaii Veterans Memorial Scholarship",
-      "date": "2020-10-05",
+      "date": "2020-10-05 & 2022-10-05",
       "awarder": "University of Hawaii at Manoa",
       "summary": "This was awarded to me similarly to the Charles R Hemenway Scholarship for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
+    },
+    {
+      "title": "Hawaii B Plus State Scholarship",
+      "date": "2021-10-05",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded for having a high school GPA of 3.0, being a full time student, and a hawaii resident"
     },
     {
       "title": "Most Inspirational Athlete",
@@ -201,12 +208,12 @@
       "date": "2019-05-16",
       "awarder": "Teisei Tengan Memorial Donor",
       "summary": "Awarded for recognition of my accomplishments of my four years of high school"
-    } 
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
     }
+    {
+      "title": "Akamai 2023 Internship Completion Certificate",
+      "date": "2019-08-03",
+      "awarder": "Jerome Shaw",
+      "summary": "Awarded for completing the Akamai Internship Program from June 2022 to August 2022"
+    },
   ]
 }
