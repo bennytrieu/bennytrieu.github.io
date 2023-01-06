@@ -124,6 +124,18 @@
       ]
     },
     {
+      "company": "IT, KBR",
+      "position": "Technical Intern",
+      "startDate": "2022-06-05",
+      "endDate": "2022-08-03",
+      "summary": "Internship on Kihei, Maui working on webserver",
+      "highlights": [
+        "Changing the layout to an accordion collapse",
+        "Fixed an issue with users not appearing on the web server",
+        "Adding graphs onto the web server"
+      ]
+    },
+    {
       "company": "Mcdonald's",
       "position": "Resturant Crew Member",
       "website": "https://www.mcdonalds.com/us/en-us.html",
@@ -137,18 +149,18 @@
       ]
     }
   ],
-  "volunteer": [
+  "Activities": [
     {
-      "organization": "Nā Kūpuna Makamae Community Center",
+      "organization": "University of Hawaii at Manoa Game Dev Club",
       "website": "",
-      "position": "Farmer's market volunteer",
-      "startDate": "2019-07-01",
-      "endDate": "2019-08-01",
-      "summary": "Support and give help to the farmer's market",
+      "position": "Game Dev Board",
+      "startDate": "2022-07-01",
+      "endDate": "2022-12-16",
+      "summary": "Help encourage students in the game development career path",
       "highlights": [
-        "Assembled the farmer's market",
-        "Helped with the transactions of the vegetables being sold at the farmer's market",
-        "Recorded the inventory of vegetables to measure profits"
+        "Organized Unity/Unreal workshops on how to use the software",
+        "Held Meetings and collaborated with others on the development of the project",
+        "Prepared meeting logs and recorded attendance"
       ]
     },
     {
@@ -183,13 +195,13 @@
       "title": "Charles R Hemenway Scholarship",
       "date": "2020-10-05 & 2022-10-05",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "This was awarded to me for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
+      "summary": "Awarded for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
     },
     {
       "title": "Hawaii Veterans Memorial Scholarship",
       "date": "2020-10-05 & 2022-10-05",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "This was awarded to me similarly to the Charles R Hemenway Scholarship for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
+      "summary": "Awarded for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
     },
     {
       "title": "Hawaii B Plus State Scholarship",
@@ -202,12 +214,6 @@
       "date": "2019-05-19",
       "awarder": "Mckinley High School Athletic Banquet",
       "summary": "This was awarded as a sign of showing the most improvement and hard effort in the team. This medal was awarded to me since I have improved a lot in my senior year of Tennis and have put in a lot of time and effort in my tennis season."
-    },
-    {
-      "title": "Teisei Tengan Memorial Scholarship",
-      "date": "2019-05-16",
-      "awarder": "Teisei Tengan Memorial Donor",
-      "summary": "Awarded for recognition of my accomplishments of my four years of high school"
     },
     {
       "title": "Akamai 2023 Internship Completion Certificate",
