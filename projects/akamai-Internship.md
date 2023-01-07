@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/kbr-logo.png
+image: img/kbrlogo.png
 title: Developing Web-server Features for the Deep Learning Team 
 permalink: 
 # All dates must be YYYY-MM-DD format!
