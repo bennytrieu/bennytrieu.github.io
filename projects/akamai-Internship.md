@@ -23,4 +23,4 @@ I have learned a lot from this project whether it would be learning how to use t
 
 ## Progress and Presentation
 
-Here is my [Presentation](https://docs.google.com/presentation/d/1yPRs8vxF040HdUPke632nkWaMuBigXCOH5ZVoUWNmzE/edit?usp=sharing) documentatatiningas asdaskdjasd
+Here is my [Presentation](https://docs.google.com/presentation/d/1yPRs8vxF040HdUPke632nkWaMuBigXCOH5ZVoUWNmzE/edit?usp=sharing) that I presented on the final day of my internship
