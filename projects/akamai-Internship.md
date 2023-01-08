@@ -21,7 +21,7 @@ Machine learning is a data-driven model which requires user-given features. Deep
 
 I have learned a lot from this project whether it would be learning how to use the DASH framework of python, understanding how the website is maintained, and how to manage my time with the amount given.
 
-<img class="gif image" src=".../img/gpustatuscluster.gif">
+<img class="gif image" src="https://github.com/bennytrieu/bennytrieu.github.io/blob/main/img/gpustatuscluster.gif">
 
 ## Progress and Presentation
 
