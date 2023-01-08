@@ -5,7 +5,7 @@ image: img/kbrlogo.png
 title: Developing Web-server Features for the Deep Learning Team 
 permalink: 
 # All dates must be YYYY-MM-DD format!
-date: 2020-10-10
+date: 2022-08-03
 labels:
   - Python
   - DASH
