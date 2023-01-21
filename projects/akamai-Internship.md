@@ -29,7 +29,7 @@ How this was fixed is by using a different line of code which was "Ps axo user:2
 
 The webserver before only showed who was using the gpu, the status of the gpu, and what gpu it was specifically. There could be more features added onto the web server providing more information for the deep learning team. What my mentor wanted on the webserver for the deep learning team was display of disk, memory, and CPUs. 
 
-<img src="../img/cpu.png">
+<img src="../img/cpu.png" width="1000">
 
 How this was made was through plotly and DASH. Using these two tools allowed more graphs and information to be implemented onto the webserver. 
 
@@ -37,7 +37,7 @@ How this was made was through plotly and DASH. Using these two tools allowed mor
 
 The web server needed a layout redesign due to how big the graphs are on the web server display. This would cause the deep learning team to take up more time to find if a GPU is available than necessary. By changing the layout to an accordion collapse, the team can find the server hosts that they want to check on without scrolling through the whole web server.
 
-<img src="../img/after.png">
+<img src="../img/after.png" width="1000">
 
 ## Reflection
 
