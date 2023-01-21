@@ -17,7 +17,7 @@ summary: Final Project for ICS486
 
 This project was made for my virtual reality and augmented reality class. For this project, we had to either work by ourselves or in groups with up to two others on making a VR game together. The game that I made with my classmates is called God Hands. You play as two hands which each hand being controlled by a VR controller and you try and stop the enemies from reaching to your side of the map in a series of waves. You can shoot bullets out of your hand, ground stomp, throw enemies, or objects at the enemies to stop the enemies from reaching your base. 
 
-<src="https://github.com/bennytrieu/bennytrieu.github.io/blob/main/img/HandBullet.gif">
+<gif src="https://github.com/bennytrieu/bennytrieu.github.io/blob/main/img/HandBullet.gif">
 
 ## Reflection
 
