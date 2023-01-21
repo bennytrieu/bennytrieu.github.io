@@ -21,17 +21,23 @@ Machine learning is a data-driven model which requires user-given features. Deep
 
 There were some users that were not appearing on the web server even though they are using the GPU's. This was mainly caused because of a line of code, "ps aux" which shortens the username by 8 characters. If users are longer than 8 characters, they have a + at the end. When that user with the + at the end is called by a second line of code using "id -nu (user with a +)", the user cannot be found.
 
+<img src="../img/psaux.png">
+
 How this was fixed is by using a different line of code which was "Ps axo user:20,pid | grep (pid)" instead. This line of code grabs all the users and their pid with the addition of printing out users longer than 10 characters. Once this is called by the same second line of code "id -nu", it was able to successfully print out all the users.
 
 ## Project Contribution 2: Adding Display features
 
 The webserver before only showed who was using the gpu, the status of the gpu, and what gpu it was specifically. There could be more features added onto the web server providing more information for the deep learning team. What my mentor wanted on the webserver for the deep learning team was display of disk, memory, and CPUs. 
 
+<img src="../img/cpu.png">
+
 How this was made was through plotly and DASH. Using these two tools allowed more graphs and information to be implemented onto the webserver. 
 
 ## Project Contribution 3: Layout Change
 
 The web server needed a layout redesign due to how big the graphs are on the web server display. This would cause the deep learning team to take up more time to find if a GPU is available than necessary. By changing the layout to an accordion collapse, the team can find the server hosts that they want to check on without scrolling through the whole web server.
+
+<img src="../img/after.png">
 
 ## Reflection
 
