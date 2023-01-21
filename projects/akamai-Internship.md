@@ -25,19 +25,17 @@ How this was fixed is by using a different line of code which was "Ps axo user:2
 
 ## Project Contribution 2: Adding Display features
 
+The webserver before only showed who was using the gpu, the status of the gpu, and what gpu it was specifically. There could be more features added onto the web server providing more information for the deep learning team. What my mentor wanted on the webserver for the deep learning team was display of disk, memory, and CPUs. 
 
+How this was made was through plotly and DASH. Using these two tools allowed more graphs and information to be implemented onto the webserver. 
 
 ## Project Contribution 3: Layout Change
 
-
-
-
+The web server needed a layout redesign due to how big the graphs are on the web server display. This would cause the deep learning team to take up more time to find if a GPU is available than necessary. By changing the layout to an accordion collapse, the team can find the server hosts that they want to check on without scrolling through the whole web server.
 
 ## Reflection
 
 I have learned a lot from this project whether it would be learning how to use the DASH framework of python, understanding how the website is maintained, and how to manage my time with the amount given.
-
-<img class="gif image" src="https://github.com/bennytrieu/bennytrieu.github.io/blob/main/img/gpustatuscluster.gif">
 
 ## Progress and Presentation
 
