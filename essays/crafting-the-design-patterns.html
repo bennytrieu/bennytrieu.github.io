@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Crafting the Design Patterns | Benny Trieu | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://bennytrieu.github.io/img/benny.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Benny Trieu | Professional Portfolio">
+    <meta property="og:url" content="https://bennytrieu.github.io/essays/crafting-the-design-patterns.html">
+    <meta property="og:title" content="Crafting the Design Patterns | Benny Trieu | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://bennytrieu.github.io/img/benny.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Crafting the Design Patterns | Benny Trieu | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Benny Trieu</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Crafting the Design Patterns</h1>
+  <span class="date">29 Apr 2021</span>
+  <hr>
+  <h2 id="introduction">Introduction</h2>
+
+<p>In the world of code, there are problems that we have to solve but each of these problems comes with many different ways of solving them. This term of defining that there are unique reusable ways to solve a problem is called a design pattern. We use design patterns as a way to describe a format of the many solutions to solve coding problems. But what if we could also apply this to a simple entertainment game like the sandbox adventure game known as Minecraft?</p>
+
+<h2 id="minecraft">Minecraft</h2>
+
+<p><img class="ui tiny left floated image" src="../img/minecraft-logo-2.jpg" style="width:256px;height:144px;" /></p>
+
+<p>Design Patterns in a way can be applied to Minecraft in the same way they can be applied to coding. The goal of Minecraft is to just survive but there are many different ways or design patterns for that goal specifically. Since Minecraft is a sandbox game, it allows the player many different ways to solve the problem of how to survive similar to code where the coder is given many different ways to solve bugs and issues that would appear in their program.</p>
+
+<h2 id="a-singleton-spider-farm">A Singleton Spider-farm</h2>
+
+<p>An option that players can do in Minecraft is a spider farm which can be easily done by trapping it with blocks. Players can utilize this to initialize cobweb farming as material for the players to use. The downside to this is if not managed correctly or watched over well, the spiders can very easily attack the players unexpectedly and could hypothetically kill them if not prepared well enough to fight them back. This is similar to a singleton where it is a global variable that can be accessed by any file but could lead to negative consequences if not watched over carefully since it can be accessed and changed very easily.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include&lt;stdio.h&gt;
+#include&lt;string.h&gt;
+#include&lt;stdlib.h&gt;
+#include"record.h"
+extern int debugmode;
+</code></pre></div></div>
+
+<p>Above is an example of a singleton in C language where it is an external integer named debugmode that could be accessed by any file in my project1 directory.</p>
+
+<h2 id="redstone-observer">Redstone Observer</h2>
+
+<p>In Minecraft, you can make all types of mechanics and machinery with the power of Redstone. One of the Redstone machines you can craft in Minecraft is called an Observer. Observers can be used to help alert and check on certain mechanics in their survival. It’s quite a funny coincidence since this has the same functionality and name as the design pattern which is called observer. They both check whether a state change has appeared but they have a small difference. The observer in Minecraft checks for changes in terms of block placement while an observer checks in terms of the state of a specific variable in the code. This is similar to the code I put in C++ where the variable “lever” is currently 0 and the while loop can be seen as the “observer”, checking if the lever is 0. When the lever is changed to 1 after the user inputs “quit” it will change the lever to 1 when the observer is notified and ends the while loop.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>while(lever == 0)
+{
+            if (strncmp (letters, "quit", value) == 0 || strncmp (letters, "Quit", value) == 0)
+            {
+                cout &lt;&lt; "Have a nice day :)\n";
+                lever = 1;
+                status = 2;
+            }
+}
+</code></pre></div></div>
+
+<h2 id="the-sights-of-design-patterns">The sights of design patterns</h2>
+
+<p>Design patterns in a way are not restricted to just video games and coding. It could be applied to other problems like what are the different ways to get dressed or how one gets from point A to point B on the map. There are many ways that problems can be solved and in a way, each problem has its design pattern template that people branch off to come up with more innovative solutions for them. If not for design patterns in coding, then we would not have this amazing technology that we utilize today.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

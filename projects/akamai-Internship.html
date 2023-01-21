@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Developing Web-server Features for the Deep Learning Team | Benny Trieu | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://bennytrieu.github.io/img/benny.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Benny Trieu | Professional Portfolio">
+    <meta property="og:url" content="https://bennytrieu.github.io/projects/akamai-Internship.html">
+    <meta property="og:title" content="Developing Web-server Features for the Deep Learning Team | Benny Trieu | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://bennytrieu.github.io/img/benny.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Developing Web-server Features for the Deep Learning Team | Benny Trieu | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Benny Trieu</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Developing Web-server Features for the Deep Learning Team</h1>
+ <h2 id="project-abstract">Project Abstract</h2>
+
+<p>Machine learning is a data-driven model which requires user-given features. Deep Learning improves on that by removing user-given requirements, allowing the algorithm to assign features to itself.  Deep Learning models require a lot of computing power when trained and would need GPUs (Graphics Processing Unit) at the ready to train them. Users need a tool that they can use to check whether a GPU is available which is why the web server, “GPU status server”, is created. Dash (Python framework for making dashboards) and Plotly (Graphic Engine of Dash) were used to develop the web server. The web server displays how many GPUs there are, checks whether they are available, and who is using them. It could also show additional information on specific analytics of the GPUs like memory, disk, and CPU (Central Processing Unit). These graphs give users more analytics on specific GPUs for their deep learning models. These graphs were implemented using Dash and Plotly as they allow fast and easy features on the web server. There have also been issues with users not appearing on the web server even though they are using the GPU. This bug was due to certain users having their names longer than eight characters. This was fixed by adding a new method in the code that accepts usernames longer than eight characters. In the future, an auto-refresh feature that does not need users to manually refresh the page, should be added. By adding additional features and bug fixes to the web server, the deep learning team is provided a more informational look at GPU availability for each server host.</p>
+
+<h2 id="project-contribution-1-fixing-missing-users">Project Contribution 1: Fixing missing users</h2>
+
+<p>There were some users that were not appearing on the web server even though they are using the GPU’s. This was mainly caused because of a line of code, “ps aux” which shortens the username by 8 characters. If users are longer than 8 characters, they have a + at the end. When that user with the + at the end is called by a second line of code using “id -nu (user with a +)”, the user cannot be found.</p>
+
+<p><img src="../img/psaux.png" /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>How this was fixed is by using a different line of code which was “Ps axo user:20,pid</td>
+      <td>grep (pid)” instead. This line of code grabs all the users and their pid with the addition of printing out users longer than 10 characters. Once this is called by the same second line of code “id -nu”, it was able to successfully print out all the users.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="project-contribution-2-adding-display-features">Project Contribution 2: Adding Display features</h2>
+
+<p>The webserver before only showed who was using the gpu, the status of the gpu, and what gpu it was specifically. There could be more features added onto the web server providing more information for the deep learning team. What my mentor wanted on the webserver for the deep learning team was display of disk, memory, and CPUs.</p>
+
+<p><img src="../img/cpu.png" width="1000" /></p>
+
+<p>How this was made was through plotly and DASH. Using these two tools allowed more graphs and information to be implemented onto the webserver.</p>
+
+<h2 id="project-contribution-3-layout-change">Project Contribution 3: Layout Change</h2>
+
+<p>The web server needed a layout redesign due to how big the graphs are on the web server display. This would cause the deep learning team to take up more time to find if a GPU is available than necessary. By changing the layout to an accordion collapse, the team can find the server hosts that they want to check on without scrolling through the whole web server.</p>
+
+<p><img src="../img/after.png" width="1000" /></p>
+
+<h2 id="reflection">Reflection</h2>
+
+<p>I have learned a lot from this project whether it would be learning how to use the DASH framework of python, understanding how the website is maintained, and how to manage my time with the amount given.</p>
+
+<h2 id="progress-and-presentation">Progress and Presentation</h2>
+
+<p>Here is my <a href="https://docs.google.com/presentation/d/1yPRs8vxF040HdUPke632nkWaMuBigXCOH5ZVoUWNmzE/edit?usp=sharing">Presentation</a> that I presented at my internship</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

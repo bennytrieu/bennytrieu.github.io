@@ -1,0 +1,225 @@
+{
+  "basics": {
+    "name": "Benny Trieu",
+    "label": "Student",
+    "picture": "https://bennytrieu.github.io/img/benny.png",
+    "email": "trieu6@hawaii.edu",
+    "phone": "808-255-5818",
+    "website": "https://bennytrieu.github.io/",
+    "summary": "Hello, my name is Benny. I am an undergraduate studying for a Computer Science degree at University of Hawaii at Manoa. I plan to graduate on spring 2023.",
+    "location": {
+      "postalCode": "96826",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "Benny's Github",
+        "url": "https://github.com/bennytrieu"
+      },
+      {
+        "network": "linkedin",
+        "username": "Benny's Linkedin",
+        "url": "https://www.linkedin.com/in/benny-trieu-8369541aa/"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Video Games",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Game Design",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Python",
+        "DASH",
+        "Java",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Semantic UI", 
+        "React", 
+        "MeteorJS", 
+        "Underscore",
+        "Blueprints"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Windows OS",
+        "Mac OS",
+        "Git/GitHub",
+        "Unity",
+        "Eclipse",
+        "Filezilla",
+        "Unreal",
+        "Amazon Web Services",
+        "Pycharm"
+      ]
+    },
+    {
+      "name": "Good Typing Speed",
+      "level": "",
+      "keywords": [
+        "Average of 90 WPM"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2023)",
+      "studyType": "B.S.",
+      "startDate": "2019-08-26",
+      "endDate": "Present",
+      "gpa": "3.39",
+      "courses": [
+        "Intro to Computer Science I & II (ICS 111 & ICS 211)",
+        "Discrete Mathematics I & II (ICS 141 & ICS 241)",
+        "Program Structure in C (ICS 212)",
+        "Algorithms (ICS 311)",
+        "Software Engineering I (ICS 314)",
+        "Machine-Lvl & Systems Programming (ICS 312)",
+        "Database Systems I (ICS 321)",
+        "Operating Systems (ICS 332)",
+        "Data Networks (ICS 451)",
+        "Virtual & Augumented Reality Programming (ICS 486)",
+        "Artifical Intelligence (ICS 461)"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawaii at Manoa - Hamilton Library",
+      "position": "Info Tech - DNS Computer & Network Support Specialist",
+      "website": "https://manoa.hawaii.edu/library/",
+      "startDate": "2021-08-01",
+      "endDate": "Present",
+      "summary": "Part-time IT technician for Hamilton Library",
+      "highlights": [
+        "Installation of hardware and software for university students and library staff to utilize",
+        "Assistance with library staff's technological issues",
+        "Recorded shortages, discrepancies, and information of the library's inventory"
+      ]
+    },
+    {
+      "company": "IT, KBR",
+      "position": "Technical Intern",
+      "startDate": "2022-06-05",
+      "endDate": "2022-08-03",
+      "summary": "Internship on Kihei, Maui working on webserver",
+      "highlights": [
+        "Changing the layout to an accordion collapse",
+        "Fixed an issue with users not appearing on the web server",
+        "Adding graphs onto the web server"
+      ]
+    },
+    {
+      "company": "Mcdonald's",
+      "position": "Resturant Crew Member",
+      "website": "https://www.mcdonalds.com/us/en-us.html",
+      "startDate": "2019-08-08",
+      "endDate": "2019-10-04",
+      "summary": "Part-time Crew member for the Mcdonald's company",
+      "highlights": [
+        "Delivered prompt, friendly customer service by documenting orders",
+        "Assisted other staff by ensuring all stations are well-supplied",
+        "Followed food safety and sanitation procedures in line with the company’s standards"
+      ]
+    }
+  ],
+  "Activities": [
+    {
+      "organization": "University of Hawaii at Manoa Game Dev Club",
+      "website": "",
+      "position": "Game Dev Board",
+      "startDate": "2022-07-01",
+      "endDate": "2022-12-16",
+      "summary": "Help encourage students in the game development career path",
+      "highlights": [
+        "Organized Unity/Unreal workshops on how to use the software",
+        "Held Meetings and collaborated with others on the development of the project",
+        "Prepared meeting logs and recorded attendance"
+      ]
+    },
+    {
+      "organization": "USTA",
+      "website": "https://www.usta.com/en/home.html",
+      "position": "Volunteer",
+      "startDate": "2017-07-01",
+      "endDate": "2019-07-01",
+      "summary": "Help promote physical activity to kids",
+      "highlights": [
+        "Constructed the booth with other volunteers",
+        "Encourage kids to sign up for tennis lessons",
+        "Distributed the prizes to participating kids"
+      ]
+    },
+    {
+      "organization": "Children's Discovery Center",
+      "website": "http://discoverycenterhawaii.org/",
+      "position": "Caretaker",
+      "startDate": "2018-06-01",
+      "endDate": "2018-09-01",
+      "summary": "Nurture and help educate the children in the environment",
+      "highlights": [
+        "Maintained and reorganized the environment to uphold the company’s friendly culture and reputation",
+        "Supervised and interacted with children to ensure their safety in order to maintain a safe, positive environment",
+        "Developed friendly relationships with children’s parents by providing directions and customer support when needed"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Charles R Hemenway Scholarship",
+      "date": "2020-10-05 & 2022-10-05",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
+    },
+    {
+      "title": "Hawaii Veterans Memorial Scholarship",
+      "date": "2020-10-05 & 2022-10-05",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded for having a minimum GPA of 2.0, having good citizenship, and by being enrolled to University of Hawaii at Manoa as a full time student"
+    },
+    {
+      "title": "Hawaii B Plus State Scholarship",
+      "date": "2021-10-05",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded for having a high school GPA of 3.0, being a full time student, and a hawaii resident"
+    },
+    {
+      "title": "Most Inspirational Athlete",
+      "date": "2019-05-19",
+      "awarder": "Mckinley High School Athletic Banquet",
+      "summary": "This was awarded as a sign of showing the most improvement and hard effort in the team. This medal was awarded to me since I have improved a lot in my senior year of Tennis and have put in a lot of time and effort in my tennis season."
+    },
+    {
+      "title": "Akamai 2023 Internship Completion Certificate",
+      "date": "2019-08-03",
+      "awarder": "Jerome Shaw",
+      "summary": "Awarded for completing the Akamai Internship Program from June 2022 to August 2022"
+    }
+  ]
+}
